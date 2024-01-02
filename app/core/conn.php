@@ -1,0 +1,18 @@
+<?php 
+
+
+
+$dsn = 'mysql:dbname=p_php_bus_booking;host=localhost';
+$user = 'root';
+$password = '';
+ 
+try
+{
+	$pdo = new PDO($dsn,$user,$password);
+	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+}
+catch(PDOException $e)
+{
+	echo "PDO error".$e->getMessage();
+	die();
+}

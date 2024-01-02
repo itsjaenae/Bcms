@@ -1,0 +1,329 @@
+
+.front-indicator {
+    margin: 0.5em 0;
+    width: 100%;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(58,16,200,1) 100%);
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 1em 0;
+    text-align: center;
+    border-radius: 3em;
+  
+}
+
+.wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+}
+
+.booking-details {
+    text-align: left;
+    font-size: 12px;
+    padding: 4.5em;
+    margin-top: 4em;
+}
+
+.booking-details h2 {
+    margin: 25px 0 20px 0;
+    font-size: 17px;
+}
+
+.booking-details h3 {
+    margin: 5px 5px 0 0;
+    font-size: 14px;
+}
+
+div.seatCharts-cell {
+    color: #1a1c1e;
+    height: 3em;
+    width: 14.666666%;
+    line-height: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    border-top-right-radius: 25%;
+border-top-left-radius: 25%;
+  }
+
+div.seatCharts-seat {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+div.seatCharts-row {
+    height: 5em;
+}
+
+div.seatCharts-seat.available {
+    background: #fff;
+    border:  rgb(24, 17, 161) solid 2px ;
+   color: #000;
+}
+
+div.seatCharts-seat.available.first-class {
+   color: #fff;
+   background: rgb(34,193,195);
+   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,212,1) 100%);
+}
+
+div.seatCharts-seat.focused {
+    background: rgb(219, 215, 215);
+   
+    color: #1a1c1e
+}
+.unavailable-seat {
+    background: rgb(252, 121, 121) !important;
+    background: radial-gradient(circle, rgba(252, 121, 121, 1) 0%, rgba(249, 81, 81, 1) 25%, rgba(231, 53, 53, 1) 50%, rgba(255, 24, 24, 1) 75%, rgba(217, 6, 6, 1) 100%) !important;
+    pointer-events: none; /* Disable clicking on unavailable seats */
+}
+div.seatCharts-seat.selected {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(58,16,200,1) 100%);
+    text-shadow: 2px 2px 5px #fff;
+}
+
+div.seatCharts-seat.unavailable {
+    background: rgb(252, 121, 121) !important;
+    background: radial-gradient(circle, rgba(252, 121, 121, 1) 0%, rgba(249, 81, 81, 1) 25%, rgba(231, 53, 53, 1) 50%, rgba(255, 24, 24, 1) 75%, rgba(217, 6, 6, 1) 100%);
+}
+.unavailable {
+    background: rgb(252, 121, 121) !important;
+    background: radial-gradient(circle, rgba(252, 121, 121, 1) 0%, rgba(249, 81, 81, 1) 25%, rgba(231, 53, 53, 1) 50%, rgba(255, 24, 24, 1) 75%, rgba(217, 6, 6, 1) 100%);
+}
+div.seatCharts-container {
+    border-right: 1px dotted #adadad;
+    padding: 20px;
+}
+
+div.seatCharts-legend {
+    padding-left: 0px;
+    bottom: 16px;
+}
+
+ul.seatCharts-legendList {  
+    padding-left: 0px;
+}
+
+span.seatCharts-legendDescription {
+    margin-left: 5px;
+    line-height: 30px;
+}
+
+.checkout-button {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+#selected-seats {
+    min-height: 10em;
+    overflow-y: scroll;
+    background: #fff;
+    padding: 0.5em 1em;
+    overflow: auto;
+}
+
+ul#selected-seats:empty:after {
+    content: "Please select Seat/s first";
+    color: #6c6c6c;
+    font-style: italic;
+}
+
+ul#selected-seats>li {
+    color: #000;
+    list-style: none;
+}
+
+.text-muted {
+    color: rgb(255 252 252);
+    text-shadow: 2px 2px 5px #000;
+}
+
+.text-center {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.fw-bolder {
+    font-weight: bolder;
+}
+
+.row {
+    --bs-gutter-x: 0.5rem;
+    --bs-gutter-y: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.grid-50 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+div.seatCharts-space {
+    background-color: transparent;
+    color: #fff !important;
+}
+
+li.seatCharts-legendItem {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 5em;
+}
+
+#checkout-button {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .5s;
+    background-size: 200% auto;
+    color: #fff;
+    border-radius: 10px;
+    display: block;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(58,16,200,1) 100%);
+    border: none;
+    cursor: pointer;
+}
+
+#checkout-button:hover,
+#reset-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#reset-btn {
+    width: 100%;
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .5s;
+    background-size: 200% auto;
+    color: #fff;
+    border-radius: 5em;
+    display: block;
+    border: none;
+    cursor: pointer;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(58,16,200,1) 100%);
+}
+
+.pilot {
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border-bottom: 5px solid #d8d8d8;
+}
+.pilot:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 170px;
+  width: 100%;
+  border-radius: 15%;
+  border-right: 5px solid #d8d8d8;
+  border-left: 5px solid #d8d8d8;
+  border-top: 5px solid #d8d8d8;
+}
+.wheel{
+  position: relative;
+  float: left;
+  margin-top: 90px;
+  left: 20px;
+}
+.door_right{
+float: right;
+margin-top: 60px;
+padding: 5px 8px;
+height: 55px;
+right: 20px;
+}
+.door_center{
+align-items: center;
+margin-top: 75px;
+height: 55px;
+}
+.fuselage {
+  height: auto;
+  border-right: 5px solid #d8d8d8;
+  border-left: 5px solid #d8d8d8;
+ 
+}
+
+.steering{
+  height:30px;
+  width:30px;
+  margin-top:0px;
+ 
+}
+.panel{
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+	.booking_details{
+    flex: 0 0 auto;
+    width: 100%;
+	}
+  .door_right{
+    margin-top: 65px;
+    height: 45px;
+    font-size: 0.7rem;
+    }
+    .door_center{
+      margin-top: 85px;
+    height: 45px;
+    font-size: 0.7rem;
+    }
+    .panel{
+      width: 500px;
+    }
+    div.seatCharts-cell {
+      height: 3em;
+      width: 12.666666%;
+      line-height: .3em;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+}
+
+  
+ 
+  
+ 
+ 
+
+
+ 
+        
+

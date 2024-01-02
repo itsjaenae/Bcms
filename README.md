@@ -30,7 +30,7 @@ Features:
 - Users can print orders
 - admin can download orders
 - Economy and First class seats have different prices
-- 
+
 
 
 **Admin Login Details**

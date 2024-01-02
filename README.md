@@ -1,4 +1,10 @@
-https://github.com/itsjaenae/e-ticket/issues/1#issue-2062366155
+![FireShot Capture 009 - Seat Booking - Bcms - localhost](https://github.com/itsjaenae/e-ticket/assets/78134531/21ab8944-14c5-4f54-9d50-a52000d4a725)
+
+![FireShot Capture 010 - Admin - Bcms - localhost](https://github.com/itsjaenae/e-ticket/assets/78134531/30dfc03a-23b0-48e4-adc7-b9e604779bde)
+
+![FireShot Capture 007 - Admin - Bcms - localhost](https://github.com/itsjaenae/e-ticket/assets/78134531/4b394e51-37c1-49f0-bac8-66f17222bf16)
+
+![FireShot Capture 008 - Home - Bcms - localhost](https://github.com/itsjaenae/e-ticket/assets/78134531/596c3362-5512-462c-bd12-8789bf12652c)
 
 # Build a Bus Booking e-ticket Web Application using Core Vanilla PHP, Html, Css, and Javascript 
 
